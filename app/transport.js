@@ -36,7 +36,7 @@ class Transport {
                 clientData.result = response.data;
             } else {
                 clientData.result = null;
-                clientData.erro = response.data;
+                clientData.error = response.data;
             }
 
             return clientData;
