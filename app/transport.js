@@ -7,12 +7,12 @@ class Transport {
         this.config = {
             baseURL: config.baseURL,
             timeout: config.timeout
-        }
+        };
         this.instance = null;
     }
 
     setHeader(name, value) {
-        if(!this.instance) {
+        if (!this.instance) {
             console.error(`can't set header, transport instance not found`)
             return;
         }
@@ -21,33 +21,31 @@ class Transport {
     }
 
     create() {
-        this.instance = axios.create({...this.config})
+        this.instance = axios.create({ ...this.config });
     }
 
     async request(method, url, data) {
         try {
             const response = await this.instance({ method, url, data });
+            const clientData = {
+                httpCode: response.status
+            };
 
             if (response.status === 200) {
-                return {
-                    error: null,
-                    httpCode: response.status,
-                    result: response.data,
-                }
+                clientData.error = null;
+                clientData.result = response.data;
             } else {
-                return {
-                    result: null,
-                    httpCode: response.status,
-                    error: response.data
-                }
+                clientData.result = null;
+                clientData.erro = response.data;
             }
-        } catch(error) {
+
+            return clientData;
+        } catch (error) {
             return {
                 result: null,
                 httpCode: 500,
                 error
-            }
+            };
         }
     }
-
 }
