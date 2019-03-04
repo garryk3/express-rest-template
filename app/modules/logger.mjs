@@ -23,3 +23,5 @@ class Logger {
         this.log('info', message);
     }
 }
+
+export default Logger;

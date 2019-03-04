@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon --experimental-modules ./app/server.mjs"
   },
   "repository": {
     "type": "git",
@@ -15,7 +15,8 @@
     "rest",
     "template",
     "router",
-    "api"
+    "api",
+    "mjs"
   ],
   "author": "garryk3",
   "license": "ISC",

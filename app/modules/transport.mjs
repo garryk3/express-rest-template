@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-import config from '../config';
+import config from '../config.mjs';
 
 class Transport {
     constructor(logger) {
@@ -9,23 +9,31 @@ class Transport {
             timeout: config.timeout
         };
         this.logger = logger;
-        this.instance = null;
+        this.instance = axios.create({ ...this.config });
     }
 
     setHeader(name, value) {
         if (!this.instance) {
-            console.error(`can't set header, transport instance not found`)
+            this.logger.error('cant set header, transport instance not found');
             return;
         }
 
         this.instance.defaults.headers.common[name] = value;
     }
 
-    create() {
-        this.instance = axios.create({ ...this.config });
-    }
-
     async request(method, url, data) {
+        if (!this.instance) {
+            this.logger.error('cant send request, transport instance not found');
+
+            return {
+                result: null,
+                httpCode: 500,
+                error: {
+                    message: 'Transport not found!'
+                }
+            };
+        }
+
         try {
             const response = await this.instance({ method, url, data });
             const clientData = {
@@ -42,6 +50,8 @@ class Transport {
 
             return clientData;
         } catch (error) {
+            this.logger.error(error.message);
+
             return {
                 result: null,
                 httpCode: 500,
@@ -50,3 +60,5 @@ class Transport {
         }
     }
 }
+
+export default Transport;
