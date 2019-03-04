@@ -1,13 +1,14 @@
 import axios from 'axios';
 
-import config from './config';
+import config from '../config';
 
 class Transport {
-    constructor() {
+    constructor(logger) {
         this.config = {
             baseURL: config.baseURL,
             timeout: config.timeout
         };
+        this.logger = logger;
         this.instance = null;
     }
 
