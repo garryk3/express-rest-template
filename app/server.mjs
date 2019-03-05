@@ -4,17 +4,18 @@ import cors from 'cors';
 import morgan from 'morgan';
 
 import config from './config.mjs';
-import Router from './controllers/router.mjs';
+import Controller from './controllers/controller.mjs';
 
 const app = express();
-const router = new Router();
+const controller = new Controller();
 
 app.use(morgan('combined'));
 app.use(cors({ origin: '*' }));
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 app.use(express.static('static'));
-app.use(router);
+
+controller.init();
 
 app.get('/', (req, res) => {
     res.send('success');
