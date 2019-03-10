@@ -31,10 +31,10 @@ class Controller {
     init() {
         try {
             this.createRoutes();
-            this.logger.info('Controller init success');
+            this.logger.info('[controller] init success');
             return this.router;
         } catch (error) {
-            this.logger.error(`Controller init fail, error: ${error.message}`);
+            this.logger.error(`[controller] init fail, error: ${error.message}`);
             return this.router;
         }
     }

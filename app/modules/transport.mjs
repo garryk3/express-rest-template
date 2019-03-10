@@ -2,11 +2,13 @@ import axios from 'axios';
 
 import config from '../config.mjs';
 
+const { transport: transportConfig } = config;
+
 class Transport {
     constructor(logger) {
         this.config = {
-            baseURL: config.baseURL,
-            timeout: config.timeout
+            baseURL: transportConfig.baseURL,
+            timeout: transportConfig.timeout
         };
         this.logger = logger;
         this.instance = axios.create({ ...this.config });

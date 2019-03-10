@@ -1,8 +1,7 @@
 import test from './test.mjs';
 
 export default (params) => {
-    console.log('init v1');
-    const { router } = params;
+    const { router, logger } = params;
     const routes = [{
         path: '/test',
         action: test
@@ -11,5 +10,6 @@ export default (params) => {
     routes.forEach((route) => {
         router.use(route.path, [], route.action(params));
     });
+    logger.info('[v1] init success');
     return router;
 };
