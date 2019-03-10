@@ -1,17 +1,26 @@
 import express from 'express';
 
-const ExpressRouter = express.Router;
-
-class Router extends ExpressRouter {
-    constructor(logger) {
-        super();
-
-        this.logger = logger;
-    }
-
+class Router {
     static errorHandler() {
         // eslint-disable-next-line no-console
-        console.log('error');
+        console.log('error', this);
+    }
+
+    constructor(logger) {
+        this.logger = logger;
+        this.router = express.Router();
+    }
+
+    get instance() {
+        return this.router;
+    }
+
+    use() {
+        return this.router.use;
+    }
+
+    routeHandler(path, type, handler) {
+        this.router.route(path)[type](handler);
     }
 }
 

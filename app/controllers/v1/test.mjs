@@ -1,6 +1,10 @@
-export default(router, transport, logger) => () => {
-    router.get('/', () => {
-        // eslint-disable-next-line no-console
-        console.log(transport, logger);
+export default (params) => {
+    const { router } = params;
+    console.log('init test');
+
+    router.routeHandler('/', 'get', (req, res) => {
+        res.send('success test');
     });
+    router.instance.get('/', (req, res) => {console.log('@@@')})
+    return router.instance;
 };
