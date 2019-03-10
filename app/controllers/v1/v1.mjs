@@ -4,7 +4,7 @@ export default params => () => {
     console.log('init v1');
     const { router } = params;
     const routes = [{
-        path: '/',
+        path: '/test',
         action: test
     }];
 

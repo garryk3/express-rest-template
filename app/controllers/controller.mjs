@@ -1,13 +1,13 @@
-import Transport from '../modules/transport.mjs';
-import Router from './router.mjs';
+import express from 'express';
 
-import V1 from './v1/index.mjs';
+import Transport from '../modules/transport.mjs';
+import V1 from './v1/v1.mjs';
 
 class Controller {
     constructor(logger) {
         this.logger = logger;
         this.transport = new Transport(this.logger);
-        this.router = new Router(this.logger);
+        this.router = express.Router();
 
         this.init = this.init.bind(this);
         this.versionConfig = [{
@@ -27,7 +27,8 @@ class Controller {
             this.router.use(version.path, version.action(params));
         });
         this.logger.info('Controller init success');
-        return this.router.instance;
+
+        return this.router;
     }
 }
 

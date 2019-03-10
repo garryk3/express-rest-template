@@ -52,3 +52,32 @@
 {"level":"info","message":"Controller init success"}
 {"level":"info","message":"Controller init success"}
 {"level":"info","message":"Controller init success"}
+{"level":"info","message":"Controller init success"}
+{"level":"info","message":"Controller init success"}
+{"level":"info","message":"Controller init success"}
+{"level":"info","message":"Controller init success"}
+{"level":"info","message":"Controller init success"}
+{"level":"info","message":"Controller init success"}
+{"level":"error","message":"TypeError: router.routeHandler is not a function\n    at Object.default [as action] (file:///mnt/c/web/express-rest-template/app/controllers/v1/test.mjs:5:12)\n    at routes.forEach (file:///mnt/c/web/express-rest-template/app/controllers/v1/index.mjs:12:38)\n    at Array.forEach (<anonymous>)\n    at file:///mnt/c/web/express-rest-template/app/controllers/v1/index.mjs:11:12\n    at Layer.handle [as handle_request] (/mnt/c/web/express-rest-template/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/mnt/c/web/express-rest-template/node_modules/express/lib/router/index.js:317:13)\n    at /mnt/c/web/express-rest-template/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/mnt/c/web/express-rest-template/node_modules/express/lib/router/index.js:335:12)\n    at next (/mnt/c/web/express-rest-template/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/mnt/c/web/express-rest-template/node_modules/express/lib/router/index.js:174:3)"}
+{"level":"info","message":"Controller init success"}
+{"level":"info","message":"Controller init success"}
+{"level":"error","message":"TypeError: router.routeHandler is not a function\n    at Object.default [as action] (file:///mnt/c/web/express-rest-template/app/controllers/v1/test.mjs:5:12)\n    at routes.forEach (file:///mnt/c/web/express-rest-template/app/controllers/v1/index.mjs:12:38)\n    at Array.forEach (<anonymous>)\n    at file:///mnt/c/web/express-rest-template/app/controllers/v1/index.mjs:11:12\n    at Layer.handle [as handle_request] (/mnt/c/web/express-rest-template/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/mnt/c/web/express-rest-template/node_modules/express/lib/router/index.js:317:13)\n    at /mnt/c/web/express-rest-template/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/mnt/c/web/express-rest-template/node_modules/express/lib/router/index.js:335:12)\n    at next (/mnt/c/web/express-rest-template/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/mnt/c/web/express-rest-template/node_modules/express/lib/router/index.js:174:3)"}
+{"level":"info","message":"Controller init success"}
+{"level":"error","message":"TypeError: Cannot read property 'get' of undefined\n    at Object.default [as action] (file:///mnt/c/web/express-rest-template/app/controllers/v1/test.mjs:5:21)\n    at routes.forEach (file:///mnt/c/web/express-rest-template/app/controllers/v1/index.mjs:12:38)\n    at Array.forEach (<anonymous>)\n    at file:///mnt/c/web/express-rest-template/app/controllers/v1/index.mjs:11:12\n    at Layer.handle [as handle_request] (/mnt/c/web/express-rest-template/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/mnt/c/web/express-rest-template/node_modules/express/lib/router/index.js:317:13)\n    at /mnt/c/web/express-rest-template/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/mnt/c/web/express-rest-template/node_modules/express/lib/router/index.js:335:12)\n    at next (/mnt/c/web/express-rest-template/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/mnt/c/web/express-rest-template/node_modules/express/lib/router/index.js:174:3)"}
+{"level":"info","message":"Controller init success"}
+{"level":"error","message":"TypeError: Router.use() requires a middleware function but got a undefined\n    at Function.use (/mnt/c/web/express-rest-template/node_modules/express/lib/router/index.js:458:13)\n    at routes.forEach (file:///mnt/c/web/express-rest-template/app/controllers/v1/index.mjs:12:16)\n    at Array.forEach (<anonymous>)\n    at file:///mnt/c/web/express-rest-template/app/controllers/v1/index.mjs:11:12\n    at Layer.handle [as handle_request] (/mnt/c/web/express-rest-template/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/mnt/c/web/express-rest-template/node_modules/express/lib/router/index.js:317:13)\n    at /mnt/c/web/express-rest-template/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/mnt/c/web/express-rest-template/node_modules/express/lib/router/index.js:335:12)\n    at next (/mnt/c/web/express-rest-template/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/mnt/c/web/express-rest-template/node_modules/express/lib/router/index.js:174:3)"}
+{"level":"info","message":"Controller init success"}
+{"level":"info","message":"Controller init success"}
+{"level":"info","message":"Controller init success"}
+{"level":"info","message":"Controller init success"}
+{"level":"info","message":"Controller init success"}
+{"level":"info","message":"Controller init success"}
+{"level":"info","message":"Controller init success"}
+{"level":"info","message":"Controller init success"}
+{"level":"info","message":"Controller init success"}
+{"level":"info","message":"Controller init success"}
+{"level":"info","message":"Controller init success"}
+{"level":"info","message":"Controller init success"}
+{"level":"info","message":"Controller init success"}
+{"level":"info","message":"Controller init success"}
+{"level":"info","message":"Controller init success"}
