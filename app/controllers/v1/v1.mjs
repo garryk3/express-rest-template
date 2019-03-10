@@ -1,6 +1,6 @@
 import test from './test.mjs';
 
-export default params => () => {
+export default (params) => {
     console.log('init v1');
     const { router } = params;
     const routes = [{
@@ -9,7 +9,7 @@ export default params => () => {
     }];
 
     routes.forEach((route) => {
-        router.use(route.path, route.action(params));
+        router.use(route.path, [], route.action(params));
     });
     return router;
 };

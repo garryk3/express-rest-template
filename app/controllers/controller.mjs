@@ -16,7 +16,7 @@ class Controller {
         }];
     }
 
-    init() {
+    createRoutes() {
         const params = {
             router: this.router,
             transport: this.transport,
@@ -26,9 +26,17 @@ class Controller {
         this.versionConfig.forEach((version) => {
             this.router.use(version.path, version.action(params));
         });
-        this.logger.info('Controller init success');
+    }
 
-        return this.router;
+    init() {
+        try {
+            this.createRoutes();
+            this.logger.info('Controller init success');
+            return this.router;
+        } catch (error) {
+            this.logger.error(`Controller init fail, error: ${error.message}`);
+            return this.router;
+        }
     }
 }
 

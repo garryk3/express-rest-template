@@ -2,6 +2,7 @@ import express from 'express';
 import bodyParser from 'body-parser';
 import cors from 'cors';
 import morgan from 'morgan';
+import compression from 'compression';
 
 import config from './config.mjs';
 import Controller from './controllers/controller.mjs';
@@ -11,6 +12,7 @@ const app = express();
 const logger = new Logger();
 const controller = new Controller(logger);
 
+app.use(compression());
 app.use(morgan('combined'));
 app.use(cors({ origin: '*' }));
 app.use(bodyParser.urlencoded({ extended: true }));

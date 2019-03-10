@@ -1,13 +1,14 @@
 export default (params) => {
     const { router } = params;
-    console.log('init test', router);
+    console.log('init test');
     router.route('/')
         .all((req, res, next) => {
-            console.log('all', req);
+            // eslint-disable-next-line no-console
+            console.log('Test route: all middleware success!');
             next();
         })
         .get((req, res) => {
-            res.send('success');
+            res.send('success test');
         });
     return router;
 };

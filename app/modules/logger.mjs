@@ -1,14 +1,27 @@
 import winston from 'winston';
 
+const { createLogger, format, transports } = winston;
+const { combine, timestamp, prettyPrint } = format;
+
 class Logger {
     constructor() {
         this.loggerConfig = {
+            format: combine(
+                timestamp(),
+                prettyPrint()
+            ),
             transports: [
-                new winston.transports.Console(),
-                new winston.transports.File({ filename: 'combined.log' })
+                new transports.Console({
+                    format: format.combine(
+                        format.colorize(),
+                        format.simple(),
+                    )
+                }),
+                new transports.File({ filename: 'info.log', level: 'info' }),
+                new transports.File({ filename: 'error.log', level: 'error' }),
             ]
         };
-        this.logger = winston.createLogger(this.loggerConfig);
+        this.logger = createLogger(this.loggerConfig);
     }
 
     log(level, message) {
