@@ -5,10 +5,13 @@ import compression from 'compression';
 import session from 'express-session';
 import connectRedis from 'connect-redis';
 import redis from 'redis';
+import passport from 'passport';
+import passportLocal from 'passport-local';
 
 import config from './config.mjs';
 import Controller from './controllers/controller.mjs';
 import Logger from './modules/logger.mjs';
+import { findByUsername, findById } from './modules/db.mjs';
 
 const app = express();
 const Store = connectRedis(session);
@@ -16,6 +19,40 @@ const client = redis.createClient();
 const logger = new Logger();
 const controller = new Controller(logger);
 const { redis: redisConfig, site: siteConfig } = config;
+const LocalStrategy = passportLocal.Strategy;
+
+passport.use(new LocalStrategy(
+    (username, password, cb) => {
+        findByUsername(username, (err, user) => {
+            if (err) { return cb(err); }
+            if (!user) { return cb(null, false); }
+            if (user.password !== password) { return cb(null, false); }
+            return cb(null, user);
+        });
+    }
+));
+
+passport.serializeUser((user, cb) => {
+    cb(null, user.id);
+});
+
+passport.deserializeUser((id, cb) => {
+    // eslint-disable-next-line consistent-return
+    findById(id, (err, user) => {
+        if (err) { return cb(err); }
+        cb(null, user);
+    });
+});
+
+client.on('error', (err) => {
+    logger.error(`[Redis] error: ${err}`);
+});
+
+app.use(compression());
+app.use(cors({ origin: '*' }));
+app.use(bodyParser.urlencoded({ extended: true }));
+app.use(bodyParser.json());
+app.use(express.static('static'));
 
 app.use(session({
     secret: 'ssshhhhh',
@@ -29,11 +66,19 @@ app.use(session({
     resave: false
 }));
 
-app.use(compression());
-app.use(cors({ origin: '*' }));
-app.use(bodyParser.urlencoded({ extended: true }));
-app.use(bodyParser.json());
-app.use(express.static('static'));
+app.use(passport.initialize());
+app.use(passport.session());
+
+app.post('/login',
+    passport.authenticate('local', { failureRedirect: '/logi' }),
+    (req, res) => {
+        res.send('success login');
+});
+
+app.get('/login', (req, res) => {
+    console.log('get login');
+    res.send('success!!!');
+})
 
 app.use('/api', controller.init());
 

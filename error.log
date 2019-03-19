@@ -1,0 +1,125 @@
+{ level: 'error',
+  message:
+   '[controller] init fail, error: Router.use() requires a middleware function',
+  timestamp: '2019-03-18T21:14:12.014Z' }
+{ level: 'error',
+  message: '[controller] init fail, error: Auth is not a function',
+  timestamp: '2019-03-18T21:17:40.245Z' }
+{ level: 'error',
+  message: '[controller] init fail, error: Auth is not a function',
+  timestamp: '2019-03-18T21:25:44.319Z' }
+{ level: 'error',
+  message: '[controller] init fail, error: Auth is not a function',
+  timestamp: '2019-03-18T21:26:32.875Z' }
+{ level: 'error',
+  message: '[controller] init fail, error: Auth is not a function',
+  timestamp: '2019-03-18T21:29:13.077Z' }
+{ level: 'error',
+  message: '[controller] init fail, error: Auth is not a function',
+  timestamp: '2019-03-18T21:35:53.554Z' }
+{ level: 'error',
+  message: '[controller] init fail, error: Auth is not a function',
+  timestamp: '2019-03-18T21:37:05.137Z' }
+{ level: 'error',
+  message: '[controller] init fail, error: Auth is not a function',
+  timestamp: '2019-03-18T21:37:24.846Z' }
+{ level: 'error',
+  message:
+   '[Redis] error: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379',
+  timestamp: '2019-03-19T20:52:22.362Z' }
+{ level: 'error',
+  message:
+   '[Redis] error: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379',
+  timestamp: '2019-03-19T20:52:23.756Z' }
+{ level: 'error',
+  message:
+   '[Redis] error: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379',
+  timestamp: '2019-03-19T20:52:25.272Z' }
+{ level: 'error',
+  message:
+   '[Redis] error: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379',
+  timestamp: '2019-03-19T20:52:27.268Z' }
+{ level: 'error',
+  message:
+   '[Redis] error: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379',
+  timestamp: '2019-03-19T20:52:29.499Z' }
+{ level: 'error',
+  message:
+   '[Redis] error: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379',
+  timestamp: '2019-03-19T20:52:32.258Z' }
+{ level: 'error',
+  message:
+   '[Redis] error: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379',
+  timestamp: '2019-03-19T20:52:36.295Z' }
+{ level: 'error',
+  message:
+   '[Redis] error: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379',
+  timestamp: '2019-03-19T20:52:42.180Z' }
+{ level: 'error',
+  message:
+   '[Redis] error: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379',
+  timestamp: '2019-03-19T20:52:51.397Z' }
+{ level: 'error',
+  message:
+   '[Redis] error: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379',
+  timestamp: '2019-03-19T20:53:06.370Z' }
+{ level: 'error',
+  message:
+   '[Redis] error: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379',
+  timestamp: '2019-03-19T20:53:31.118Z' }
+{ level: 'error',
+  message:
+   '[Redis] error: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379',
+  timestamp: '2019-03-19T20:57:01.636Z' }
+{ level: 'error',
+  message:
+   '[Redis] error: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379',
+  timestamp: '2019-03-19T20:57:02.854Z' }
+{ level: 'error',
+  message:
+   '[Redis] error: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379',
+  timestamp: '2019-03-19T20:57:04.218Z' }
+{ level: 'error',
+  message:
+   '[Redis] error: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379',
+  timestamp: '2019-03-19T20:57:05.805Z' }
+{ level: 'error',
+  message:
+   '[Redis] error: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379',
+  timestamp: '2019-03-19T20:57:07.798Z' }
+{ level: 'error',
+  message:
+   '[Redis] error: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379',
+  timestamp: '2019-03-19T20:57:10.481Z' }
+{ level: 'error',
+  message:
+   '[Redis] error: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379',
+  timestamp: '2019-03-19T20:57:14.332Z' }
+{ level: 'error',
+  message:
+   '[Redis] error: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379',
+  timestamp: '2019-03-19T20:57:20.185Z' }
+{ level: 'error',
+  message:
+   '[Redis] error: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379',
+  timestamp: '2019-03-19T21:09:56.588Z' }
+{ level: 'error',
+  message:
+   '[Redis] error: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379',
+  timestamp: '2019-03-19T21:09:57.939Z' }
+{ level: 'error',
+  message:
+   '[Redis] error: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379',
+  timestamp: '2019-03-19T21:09:59.525Z' }
+{ level: 'error',
+  message:
+   'SyntaxError: Unexpected token u in JSON at position 1\n    at JSON.parse (<anonymous>)\n    at parse (/mnt/c/web/express-rest-template/node_modules/body-parser/lib/types/json.js:89:19)\n    at /mnt/c/web/express-rest-template/node_modules/body-parser/lib/read.js:121:18\n    at invokeCallback (/mnt/c/web/express-rest-template/node_modules/raw-body/index.js:224:16)\n    at done (/mnt/c/web/express-rest-template/node_modules/raw-body/index.js:213:7)\n    at IncomingMessage.onEnd (/mnt/c/web/express-rest-template/node_modules/raw-body/index.js:273:7)\n    at IncomingMessage.emit (events.js:202:15)\n    at endReadableNT (_stream_readable.js:1129:12)\n    at processTicksAndRejections (internal/process/next_tick.js:76:17)',
+  timestamp: '2019-03-19T21:13:30.860Z' }
+{ level: 'error',
+  message:
+   "TypeError: Cannot read property 'findByUsername' of undefined\n    at Strategy.passport.use.LocalStrategy [as _verify] (file:///mnt/c/web/express-rest-template/app/server.mjs:26:18)\n    at Strategy.authenticate (/mnt/c/web/express-rest-template/node_modules/passport-local/lib/strategy.js:90:12)\n    at attempt (/mnt/c/web/express-rest-template/node_modules/passport/lib/middleware/authenticate.js:361:16)\n    at authenticate (/mnt/c/web/express-rest-template/node_modules/passport/lib/middleware/authenticate.js:362:7)\n    at Layer.handle [as handle_request] (/mnt/c/web/express-rest-template/node_modules/express/lib/router/layer.js:95:5)\n    at next (/mnt/c/web/express-rest-template/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/mnt/c/web/express-rest-template/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/mnt/c/web/express-rest-template/node_modules/express/lib/router/layer.js:95:5)\n    at /mnt/c/web/express-rest-template/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/mnt/c/web/express-rest-template/node_modules/express/lib/router/index.js:335:12)",
+  timestamp: '2019-03-19T21:23:54.540Z' }
+{ level: 'error',
+  message:
+   'SyntaxError: Unexpected token P in JSON at position 0\n    at JSON.parse (<anonymous>)\n    at createStrictSyntaxError (/mnt/c/web/express-rest-template/node_modules/body-parser/lib/types/json.js:158:10)\n    at parse (/mnt/c/web/express-rest-template/node_modules/body-parser/lib/types/json.js:83:15)\n    at /mnt/c/web/express-rest-template/node_modules/body-parser/lib/read.js:121:18\n    at invokeCallback (/mnt/c/web/express-rest-template/node_modules/raw-body/index.js:224:16)\n    at done (/mnt/c/web/express-rest-template/node_modules/raw-body/index.js:213:7)\n    at IncomingMessage.onEnd (/mnt/c/web/express-rest-template/node_modules/raw-body/index.js:273:7)\n    at IncomingMessage.emit (events.js:202:15)\n    at endReadableNT (_stream_readable.js:1129:12)\n    at processTicksAndRejections (internal/process/next_tick.js:76:17)',
+  timestamp: '2019-03-19T21:30:00.377Z' }

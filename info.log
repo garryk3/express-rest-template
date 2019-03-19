@@ -157,3 +157,410 @@
 { level: 'info',
   message: '[controller] init success',
   timestamp: '2019-03-10T22:06:13.291Z' }
+{ level: 'info',
+  message: '[v1] init success',
+  timestamp: '2019-03-17T21:13:34.443Z' }
+{ level: 'info',
+  message: '[controller] init success',
+  timestamp: '2019-03-17T21:13:34.454Z' }
+{ level: 'info',
+  message: '[v1] init success',
+  timestamp: '2019-03-17T21:18:45.772Z' }
+{ level: 'info',
+  message: '[controller] init success',
+  timestamp: '2019-03-17T21:18:45.801Z' }
+{ level: 'info',
+  message: '[v1] init success',
+  timestamp: '2019-03-17T21:23:11.592Z' }
+{ level: 'info',
+  message: '[controller] init success',
+  timestamp: '2019-03-17T21:23:11.601Z' }
+{ level: 'info',
+  message: '[v1] init success',
+  timestamp: '2019-03-17T21:24:49.130Z' }
+{ level: 'info',
+  message: '[controller] init success',
+  timestamp: '2019-03-17T21:24:49.139Z' }
+{ level: 'info',
+  message: '[v1] init success',
+  timestamp: '2019-03-17T21:25:39.225Z' }
+{ level: 'info',
+  message: '[controller] init success',
+  timestamp: '2019-03-17T21:25:39.239Z' }
+{ level: 'info',
+  message: '[v1] init success',
+  timestamp: '2019-03-17T21:26:52.785Z' }
+{ level: 'info',
+  message: '[controller] init success',
+  timestamp: '2019-03-17T21:26:52.792Z' }
+{ level: 'info',
+  message: '[v1] init success',
+  timestamp: '2019-03-17T21:27:45.958Z' }
+{ level: 'info',
+  message: '[controller] init success',
+  timestamp: '2019-03-17T21:27:45.969Z' }
+{ level: 'info',
+  message: '[v1] init success',
+  timestamp: '2019-03-17T21:28:07.718Z' }
+{ level: 'info',
+  message: '[controller] init success',
+  timestamp: '2019-03-17T21:28:07.728Z' }
+{ level: 'info',
+  message: '[v1] init success',
+  timestamp: '2019-03-17T21:28:55.288Z' }
+{ level: 'info',
+  message: '[controller] init success',
+  timestamp: '2019-03-17T21:28:55.297Z' }
+{ level: 'info',
+  message: '[v1] init success',
+  timestamp: '2019-03-17T21:29:43.269Z' }
+{ level: 'info',
+  message: '[controller] init success',
+  timestamp: '2019-03-17T21:29:43.277Z' }
+{ level: 'info',
+  message: '[v1] init success',
+  timestamp: '2019-03-17T21:34:48.220Z' }
+{ level: 'info',
+  message: '[controller] init success',
+  timestamp: '2019-03-17T21:34:48.229Z' }
+{ level: 'info',
+  message: '[v1] init success',
+  timestamp: '2019-03-17T21:39:36.596Z' }
+{ level: 'info',
+  message: '[controller] init success',
+  timestamp: '2019-03-17T21:39:36.611Z' }
+{ level: 'info',
+  message: '[v1] init success',
+  timestamp: '2019-03-17T21:41:33.290Z' }
+{ level: 'info',
+  message: '[controller] init success',
+  timestamp: '2019-03-17T21:41:33.298Z' }
+{ level: 'info',
+  message: '[v1] init success',
+  timestamp: '2019-03-17T21:45:27.163Z' }
+{ level: 'info',
+  message: '[controller] init success',
+  timestamp: '2019-03-17T21:45:27.173Z' }
+{ level: 'info',
+  message: '[v1] init success',
+  timestamp: '2019-03-17T21:47:58.386Z' }
+{ level: 'info',
+  message: '[controller] init success',
+  timestamp: '2019-03-17T21:47:58.393Z' }
+{ level: 'info',
+  message: '[v1] init success',
+  timestamp: '2019-03-17T21:48:50.183Z' }
+{ level: 'info',
+  message: '[controller] init success',
+  timestamp: '2019-03-17T21:48:50.192Z' }
+{ level: 'info',
+  message: '[v1] init success',
+  timestamp: '2019-03-17T21:49:07.645Z' }
+{ level: 'info',
+  message: '[controller] init success',
+  timestamp: '2019-03-17T21:49:07.654Z' }
+{ level: 'info',
+  message: '[v1] init success',
+  timestamp: '2019-03-18T20:58:56.300Z' }
+{ level: 'info',
+  message: '[controller] init success',
+  timestamp: '2019-03-18T20:58:56.307Z' }
+{ level: 'info',
+  message: '[v1] init success',
+  timestamp: '2019-03-18T21:03:26.090Z' }
+{ level: 'info',
+  message: '[controller] init success',
+  timestamp: '2019-03-18T21:03:26.100Z' }
+{ level: 'info',
+  message: '[v1] init success',
+  timestamp: '2019-03-18T21:05:53.472Z' }
+{ level: 'info',
+  message: '[controller] init success',
+  timestamp: '2019-03-18T21:05:53.481Z' }
+{ level: 'info',
+  message: '[v1] init success',
+  timestamp: '2019-03-18T21:08:24.102Z' }
+{ level: 'info',
+  message: '[controller] init success',
+  timestamp: '2019-03-18T21:08:24.113Z' }
+{ level: 'error',
+  message:
+   '[controller] init fail, error: Router.use() requires a middleware function',
+  timestamp: '2019-03-18T21:14:12.014Z' }
+{ level: 'error',
+  message: '[controller] init fail, error: Auth is not a function',
+  timestamp: '2019-03-18T21:17:40.245Z' }
+{ level: 'error',
+  message: '[controller] init fail, error: Auth is not a function',
+  timestamp: '2019-03-18T21:25:44.319Z' }
+{ level: 'error',
+  message: '[controller] init fail, error: Auth is not a function',
+  timestamp: '2019-03-18T21:26:32.875Z' }
+{ level: 'error',
+  message: '[controller] init fail, error: Auth is not a function',
+  timestamp: '2019-03-18T21:29:13.077Z' }
+{ level: 'error',
+  message: '[controller] init fail, error: Auth is not a function',
+  timestamp: '2019-03-18T21:35:53.554Z' }
+{ level: 'error',
+  message: '[controller] init fail, error: Auth is not a function',
+  timestamp: '2019-03-18T21:37:05.137Z' }
+{ level: 'error',
+  message: '[controller] init fail, error: Auth is not a function',
+  timestamp: '2019-03-18T21:37:24.846Z' }
+{ level: 'info',
+  message: '[v1] init success',
+  timestamp: '2019-03-18T21:40:03.864Z' }
+{ level: 'info',
+  message: '[controller] init success',
+  timestamp: '2019-03-18T21:40:03.876Z' }
+{ level: 'info',
+  message: '[v1] init success',
+  timestamp: '2019-03-19T20:52:21.120Z' }
+{ level: 'info',
+  message: '[controller] init success',
+  timestamp: '2019-03-19T20:52:21.138Z' }
+{ level: 'error',
+  message:
+   '[Redis] error: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379',
+  timestamp: '2019-03-19T20:52:22.362Z' }
+{ level: 'error',
+  message:
+   '[Redis] error: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379',
+  timestamp: '2019-03-19T20:52:23.756Z' }
+{ level: 'error',
+  message:
+   '[Redis] error: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379',
+  timestamp: '2019-03-19T20:52:25.272Z' }
+{ level: 'error',
+  message:
+   '[Redis] error: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379',
+  timestamp: '2019-03-19T20:52:27.268Z' }
+{ level: 'error',
+  message:
+   '[Redis] error: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379',
+  timestamp: '2019-03-19T20:52:29.499Z' }
+{ level: 'error',
+  message:
+   '[Redis] error: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379',
+  timestamp: '2019-03-19T20:52:32.258Z' }
+{ level: 'error',
+  message:
+   '[Redis] error: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379',
+  timestamp: '2019-03-19T20:52:36.295Z' }
+{ level: 'error',
+  message:
+   '[Redis] error: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379',
+  timestamp: '2019-03-19T20:52:42.180Z' }
+{ level: 'error',
+  message:
+   '[Redis] error: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379',
+  timestamp: '2019-03-19T20:52:51.397Z' }
+{ level: 'error',
+  message:
+   '[Redis] error: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379',
+  timestamp: '2019-03-19T20:53:06.370Z' }
+{ level: 'error',
+  message:
+   '[Redis] error: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379',
+  timestamp: '2019-03-19T20:53:31.118Z' }
+{ level: 'info',
+  message: '[v1] init success',
+  timestamp: '2019-03-19T20:57:00.606Z' }
+{ level: 'info',
+  message: '[controller] init success',
+  timestamp: '2019-03-19T20:57:00.616Z' }
+{ level: 'error',
+  message:
+   '[Redis] error: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379',
+  timestamp: '2019-03-19T20:57:01.636Z' }
+{ level: 'error',
+  message:
+   '[Redis] error: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379',
+  timestamp: '2019-03-19T20:57:02.854Z' }
+{ level: 'error',
+  message:
+   '[Redis] error: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379',
+  timestamp: '2019-03-19T20:57:04.218Z' }
+{ level: 'error',
+  message:
+   '[Redis] error: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379',
+  timestamp: '2019-03-19T20:57:05.805Z' }
+{ level: 'error',
+  message:
+   '[Redis] error: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379',
+  timestamp: '2019-03-19T20:57:07.798Z' }
+{ level: 'error',
+  message:
+   '[Redis] error: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379',
+  timestamp: '2019-03-19T20:57:10.481Z' }
+{ level: 'error',
+  message:
+   '[Redis] error: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379',
+  timestamp: '2019-03-19T20:57:14.332Z' }
+{ level: 'error',
+  message:
+   '[Redis] error: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379',
+  timestamp: '2019-03-19T20:57:20.185Z' }
+{ level: 'info',
+  message: '[v1] init success',
+  timestamp: '2019-03-19T20:57:41.521Z' }
+{ level: 'info',
+  message: '[controller] init success',
+  timestamp: '2019-03-19T20:57:41.530Z' }
+{ level: 'info',
+  message: '[v1] init success',
+  timestamp: '2019-03-19T21:03:49.677Z' }
+{ level: 'info',
+  message: '[controller] init success',
+  timestamp: '2019-03-19T21:03:49.686Z' }
+{ level: 'info',
+  message: '[v1] init success',
+  timestamp: '2019-03-19T21:04:00.699Z' }
+{ level: 'info',
+  message: '[controller] init success',
+  timestamp: '2019-03-19T21:04:00.708Z' }
+{ level: 'info',
+  message: '[v1] init success',
+  timestamp: '2019-03-19T21:04:49.107Z' }
+{ level: 'info',
+  message: '[controller] init success',
+  timestamp: '2019-03-19T21:04:49.115Z' }
+{ level: 'info',
+  message: '[v1] init success',
+  timestamp: '2019-03-19T21:06:27.488Z' }
+{ level: 'info',
+  message: '[controller] init success',
+  timestamp: '2019-03-19T21:06:27.497Z' }
+{ level: 'info',
+  message: '[v1] init success',
+  timestamp: '2019-03-19T21:06:39.231Z' }
+{ level: 'info',
+  message: '[controller] init success',
+  timestamp: '2019-03-19T21:06:39.239Z' }
+{ level: 'info',
+  message: '[v1] init success',
+  timestamp: '2019-03-19T21:08:23.930Z' }
+{ level: 'info',
+  message: '[controller] init success',
+  timestamp: '2019-03-19T21:08:23.938Z' }
+{ level: 'error',
+  message:
+   '[Redis] error: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379',
+  timestamp: '2019-03-19T21:09:56.588Z' }
+{ level: 'error',
+  message:
+   '[Redis] error: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379',
+  timestamp: '2019-03-19T21:09:57.939Z' }
+{ level: 'error',
+  message:
+   '[Redis] error: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379',
+  timestamp: '2019-03-19T21:09:59.525Z' }
+{ level: 'info',
+  message: '[v1] init success',
+  timestamp: '2019-03-19T21:11:18.720Z' }
+{ level: 'info',
+  message: '[controller] init success',
+  timestamp: '2019-03-19T21:11:18.729Z' }
+{ level: 'error',
+  message:
+   'SyntaxError: Unexpected token u in JSON at position 1\n    at JSON.parse (<anonymous>)\n    at parse (/mnt/c/web/express-rest-template/node_modules/body-parser/lib/types/json.js:89:19)\n    at /mnt/c/web/express-rest-template/node_modules/body-parser/lib/read.js:121:18\n    at invokeCallback (/mnt/c/web/express-rest-template/node_modules/raw-body/index.js:224:16)\n    at done (/mnt/c/web/express-rest-template/node_modules/raw-body/index.js:213:7)\n    at IncomingMessage.onEnd (/mnt/c/web/express-rest-template/node_modules/raw-body/index.js:273:7)\n    at IncomingMessage.emit (events.js:202:15)\n    at endReadableNT (_stream_readable.js:1129:12)\n    at processTicksAndRejections (internal/process/next_tick.js:76:17)',
+  timestamp: '2019-03-19T21:13:30.860Z' }
+{ level: 'info',
+  message: '[v1] init success',
+  timestamp: '2019-03-19T21:14:31.851Z' }
+{ level: 'info',
+  message: '[controller] init success',
+  timestamp: '2019-03-19T21:14:31.861Z' }
+{ level: 'info',
+  message: '[v1] init success',
+  timestamp: '2019-03-19T21:16:20.959Z' }
+{ level: 'info',
+  message: '[controller] init success',
+  timestamp: '2019-03-19T21:16:20.970Z' }
+{ level: 'info',
+  message: '[v1] init success',
+  timestamp: '2019-03-19T21:17:28.172Z' }
+{ level: 'info',
+  message: '[controller] init success',
+  timestamp: '2019-03-19T21:17:28.180Z' }
+{ level: 'info',
+  message: '[v1] init success',
+  timestamp: '2019-03-19T21:18:51.213Z' }
+{ level: 'info',
+  message: '[controller] init success',
+  timestamp: '2019-03-19T21:18:51.220Z' }
+{ level: 'info',
+  message: '[v1] init success',
+  timestamp: '2019-03-19T21:21:20.808Z' }
+{ level: 'info',
+  message: '[controller] init success',
+  timestamp: '2019-03-19T21:21:20.816Z' }
+{ level: 'info',
+  message: '[v1] init success',
+  timestamp: '2019-03-19T21:22:48.534Z' }
+{ level: 'info',
+  message: '[controller] init success',
+  timestamp: '2019-03-19T21:22:48.549Z' }
+{ level: 'error',
+  message:
+   "TypeError: Cannot read property 'findByUsername' of undefined\n    at Strategy.passport.use.LocalStrategy [as _verify] (file:///mnt/c/web/express-rest-template/app/server.mjs:26:18)\n    at Strategy.authenticate (/mnt/c/web/express-rest-template/node_modules/passport-local/lib/strategy.js:90:12)\n    at attempt (/mnt/c/web/express-rest-template/node_modules/passport/lib/middleware/authenticate.js:361:16)\n    at authenticate (/mnt/c/web/express-rest-template/node_modules/passport/lib/middleware/authenticate.js:362:7)\n    at Layer.handle [as handle_request] (/mnt/c/web/express-rest-template/node_modules/express/lib/router/layer.js:95:5)\n    at next (/mnt/c/web/express-rest-template/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/mnt/c/web/express-rest-template/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/mnt/c/web/express-rest-template/node_modules/express/lib/router/layer.js:95:5)\n    at /mnt/c/web/express-rest-template/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/mnt/c/web/express-rest-template/node_modules/express/lib/router/index.js:335:12)",
+  timestamp: '2019-03-19T21:23:54.540Z' }
+{ level: 'info',
+  message: '[v1] init success',
+  timestamp: '2019-03-19T21:27:27.990Z' }
+{ level: 'info',
+  message: '[controller] init success',
+  timestamp: '2019-03-19T21:27:28.005Z' }
+{ level: 'info',
+  message: '[v1] init success',
+  timestamp: '2019-03-19T21:28:24.391Z' }
+{ level: 'info',
+  message: '[controller] init success',
+  timestamp: '2019-03-19T21:28:24.400Z' }
+{ level: 'info',
+  message: '[v1] init success',
+  timestamp: '2019-03-19T21:28:43.885Z' }
+{ level: 'info',
+  message: '[controller] init success',
+  timestamp: '2019-03-19T21:28:43.893Z' }
+{ level: 'info',
+  message: '[v1] init success',
+  timestamp: '2019-03-19T21:28:51.352Z' }
+{ level: 'info',
+  message: '[controller] init success',
+  timestamp: '2019-03-19T21:28:51.360Z' }
+{ level: 'info',
+  message: '[v1] init success',
+  timestamp: '2019-03-19T21:29:05.806Z' }
+{ level: 'info',
+  message: '[controller] init success',
+  timestamp: '2019-03-19T21:29:05.814Z' }
+{ level: 'info',
+  message: '[v1] init success',
+  timestamp: '2019-03-19T21:29:23.932Z' }
+{ level: 'info',
+  message: '[controller] init success',
+  timestamp: '2019-03-19T21:29:23.958Z' }
+{ level: 'error',
+  message:
+   'SyntaxError: Unexpected token P in JSON at position 0\n    at JSON.parse (<anonymous>)\n    at createStrictSyntaxError (/mnt/c/web/express-rest-template/node_modules/body-parser/lib/types/json.js:158:10)\n    at parse (/mnt/c/web/express-rest-template/node_modules/body-parser/lib/types/json.js:83:15)\n    at /mnt/c/web/express-rest-template/node_modules/body-parser/lib/read.js:121:18\n    at invokeCallback (/mnt/c/web/express-rest-template/node_modules/raw-body/index.js:224:16)\n    at done (/mnt/c/web/express-rest-template/node_modules/raw-body/index.js:213:7)\n    at IncomingMessage.onEnd (/mnt/c/web/express-rest-template/node_modules/raw-body/index.js:273:7)\n    at IncomingMessage.emit (events.js:202:15)\n    at endReadableNT (_stream_readable.js:1129:12)\n    at processTicksAndRejections (internal/process/next_tick.js:76:17)',
+  timestamp: '2019-03-19T21:30:00.377Z' }
+{ level: 'info',
+  message: '[v1] init success',
+  timestamp: '2019-03-19T21:33:07.323Z' }
+{ level: 'info',
+  message: '[controller] init success',
+  timestamp: '2019-03-19T21:33:07.332Z' }
+{ level: 'info',
+  message: '[v1] init success',
+  timestamp: '2019-03-19T21:34:00.045Z' }
+{ level: 'info',
+  message: '[controller] init success',
+  timestamp: '2019-03-19T21:34:00.060Z' }
+{ level: 'info',
+  message: '[v1] init success',
+  timestamp: '2019-03-19T21:34:23.173Z' }
+{ level: 'info',
+  message: '[controller] init success',
+  timestamp: '2019-03-19T21:34:23.182Z' }

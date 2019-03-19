@@ -1,6 +1,6 @@
 export default (params) => {
     const { router } = params;
-    console.log('init test');
+
     router.route('/')
         .all((req, res, next) => {
             if (req.session) {

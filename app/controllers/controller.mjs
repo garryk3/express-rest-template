@@ -1,7 +1,9 @@
 import express from 'express';
+import passportLocal from 'passport-local';
 
 import Transport from '../modules/transport.mjs';
 import V1 from './v1/v1.mjs';
+//import Auth from './auth/auth.mjs';
 
 class Controller {
     constructor(logger) {
@@ -22,6 +24,8 @@ class Controller {
             transport: this.transport,
             logger: this.logger
         };
+
+        //this.router.use('/login', Auth(params));
 
         this.versionConfig.forEach((version) => {
             this.router.use(version.path, version.action(params));
