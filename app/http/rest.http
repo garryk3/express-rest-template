@@ -1,2 +1,16 @@
 GET http://localhost:3000/api/v1/test HTTP/1.1
 content-type: application/json
+
+###
+POST http://localhost:3000/login HTTP/1.1
+content-type: application/json
+
+{"username": "test-user", "password": "my-password"}
+
+###
+GET http://localhost:3000/test HTTP/1.1
+content-type: application/json
+
+###
+GET http://localhost:3000/logout HTTP/1.1
+content-type: application/json

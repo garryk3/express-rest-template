@@ -7,6 +7,7 @@ import connectRedis from 'connect-redis';
 import redis from 'redis';
 import passport from 'passport';
 import passportLocal from 'passport-local';
+import connectEnsureLogin from 'connect-ensure-login';
 
 import config from './config.mjs';
 import Controller from './controllers/controller.mjs';
@@ -23,6 +24,7 @@ const LocalStrategy = passportLocal.Strategy;
 
 passport.use(new LocalStrategy(
     (username, password, cb) => {
+        console.log('@@@@@@@@@');
         findByUsername(username, (err, user) => {
             if (err) { return cb(err); }
             if (!user) { return cb(null, false); }
@@ -55,7 +57,7 @@ app.use(bodyParser.json());
 app.use(express.static('static'));
 
 app.use(session({
-    secret: 'ssshhhhh',
+    secret: 'api secret key',
     store: new Store({
         host: redisConfig.host,
         port: redisConfig.port,
@@ -69,16 +71,31 @@ app.use(session({
 app.use(passport.initialize());
 app.use(passport.session());
 
+app.use((req, res, next) => {
+    console.log('!!!url: ', req.url);
+    next();
+});
+
 app.post('/login',
-    passport.authenticate('local', { failureRedirect: '/logi' }),
+    passport.authenticate('local', { failureRedirect: '/login' }),
     (req, res) => {
         res.send('success login');
 });
 
+app.get('/logout',
+    (req, res) => {
+        req.logout();
+        res.send('success logout');
+});
+
 app.get('/login', (req, res) => {
-    console.log('get login');
-    res.send('success!!!');
-})
+    res.send('redirect to login!!!');
+});
+
+
+app.get('/test', connectEnsureLogin.ensureLoggedIn('/login'), (req, res) => {
+    res.send('test success');
+});
 
 app.use('/api', controller.init());
 
